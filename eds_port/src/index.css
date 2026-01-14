@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary_blue: #3B69DF;
+  --secondary_blue: #21325D;
+  --primary_black: #222222;
+  --primary_gray: #333332;
+  --secondary_gray: #A6A6A6;
+}
+
+body{
+  background-color: var(--primary_black);
+}
+
+.bg-primary-blue {
+  background-color: var(--primary_blue);
+}
+.bg-secondary-blue {
+  background-color: var(--secondary_blue);
+}
+.bg-primary-gray {
+  background-color: var(--primary_gray);
+}
+.bg-secondary-gray {
+  background-color: var(--secondary_gray);
+}
+
+.btn-active {
+  background-color: var(--primary_blue);
+  color: white;
+}
+
+.text-primary-blue {
+  color: var(--primary_blue);
+}
+.text-secondary-blue {
+  color: var(--secondary_blue);
+}
+.text-primary-black {
+  color: var(--primary_black);
+}
+.text-primary-gray {
+  color: var(--primary_gray);
+}
+.text-secondary-gray {
+  color: var(--secondary_gray);
+}
+
+/* Full-Stack Web Developer */
+
+.text-white-bluedrop{
+  color: #DAE4FF;
+  text-shadow: 5px 4px 10px #0049FF;
+}
+
+/* .bg-darkblue{
+  background-color: #1B3C53;
+}
+.bg-blue{
+  background-color: #234C6A;
+}
+.bg-lightblue{
+  background-color: #456882;
+}
+.bg-main{
+  background-color: #E3E3E3;
+}
+
+.text-light{
+  color: #E3E3E3;
+}
+.text-blue{
+  color: #234C6A;
+}
+.text-lightblue{
+  color: #456882;
+}
+.text-main{
+  color: #1B3C53;
+} */
